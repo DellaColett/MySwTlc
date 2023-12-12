@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText android:id="@+id/enter_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_temp"
+        android:inputType="numberDecimal"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/cel_to_far"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cel_to_far"/>
+        <RadioButton android:id="@+id/far_to_cel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/far_to_cel"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="convT"/>
+    <TextView android:id="@+id/conversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

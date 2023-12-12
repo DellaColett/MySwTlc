@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="32dp"
+    tools:context=".InternalStorage"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/storage_title"
+         android:textSize="32sp"
+         android:gravity="center_horizontal"
+         android:layout_marginBottom="30pt"
+         android:layout_marginTop="12pt"/>
+
+     <EditText android:id="@+id/file_name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="text"
+         android:hint="@string/name_file"/>
+     <EditText android:id="@+id/edit_file"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="start|top"
+         android:inputType="textMultiLine"
+         android:hint="@string/storage_hint"
+         android:layout_marginBottom="15pt"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         tools:ignore="ExtraText">
+          <Button android:id="@+id/storage_button_save"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:onClick="WriteBtn"
+              android:text="@string/button_write"/>
+          <Button android:id="@+id/storage_button_read"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:onClick="ReadBtn"
+              android:text="@string/button_read"/>
+
+     </LinearLayout>
+
+     <Button android:id="@+id/storage_button_edit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:onClick="EditBtn"
+         android:text="@string/button_edit"
+         android:layout_gravity="center_horizontal"/>
+     <Spinner
+         android:id="@+id/text_spinner"
+         android:layout_marginTop="15dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:minHeight="34dp"/>
+
+     <TextView android:id="@+id/storage_view"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15dp"
+         android:scrollbars="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="35pt">
+
+    <TextView
+        android:id="@+id/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_test"
+        android:onClick="openTest"
+        android:layout_gravity="center_horizontal"/>
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="convTemp"
+        android:src="@drawable/termo"
+        android:scaleType="centerCrop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_utils"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openUtils"/>
+    <Button android:id="@+id/cl_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cl_button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openCl"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_sensor"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openSens"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/internal_storage"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openStor"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image_button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="openImage"/>
+
+    <EditText android:id="@+id/edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/enter_your_name"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
+
+

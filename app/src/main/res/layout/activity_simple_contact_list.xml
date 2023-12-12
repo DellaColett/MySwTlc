@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32pt">
+
+    <TextView android:id="@+id/cl_activity_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="@string/cl_activity_title"/>
+    <TextView android:id="@+id/activity_subtitle_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="32pt"
+        android:textSize="24sp"
+        android:text="@string/cl_activity_subtitle"/>
+
+    <EditText android:id="@+id/cl_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:hint="@string/cl_name"
+        android:inputType="text"/>
+    <EditText android:id="@+id/cl_mail_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:hint="@string/cl_mail"
+        android:inputType="textEmailAddress"/>
+    <EditText android:id="@+id/cl_phone_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:hint="@string/cl_phone"
+        android:inputType="phone"/>
+
+    <Button android:id="@+id/cl_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32pt"
+        android:text="@string/button_save"/>
+    <Button android:id="@+id/cl_pass_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_pass"
+        android:onClick="openContact"/>
+
+</LinearLayout>

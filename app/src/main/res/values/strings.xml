@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MySwTlc</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="radiored">Red</string>
+    <string name="radiogreen">Green</string>
+    <string name="radioblue">Blue</string>
+    <string name="welcome_message">My utilities</string>
+    <string name="button_test">Test</string>
+    <string name="button_converter">Temperature Converter</string>
+    <string name="button_utils">Office Utils</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_temp">Enter Temp</string>
+    <string name="cel_to_far">Celsius to Fahrenheit</string>
+    <string name="far_to_cel">Fahrenheit to Celsius</string>
+    <string name="browse_button">Browse</string>
+    <string name="phone_button">Phone</string>
+    <string name="email_button">E-mail</string>
+    <string name="url_hint">Enter Url</string>
+    <string name="phone_hint">Enter phone number</string>
+    <string name="email_to_hint">Enter the address</string>
+    <string name="email_subject_hint">Enter the subject</string>
+    <string name="email_text_hint">Enter a message</string>
+    <string name="map_button">Position</string>
+    <string name="location_hint">Insert a location</string>
+    <string name="cl_activity_title">Simple Contact List</string>
+    <string name="cl_activity_subtitle">with SharedPreferences</string>
+    <string name="cl_name">Name</string>
+    <string name="cl_mail">E-mail</string>
+    <string name="cl_phone">Phone</string>
+    <string name="button_save">Save</string>
+    <string name="cl_button">Contact List</string>
+    <string name="button_pass">Pass</string>
+    <string name="cl_list">Contact List</string>
+    <string name="button_sensor">Sensor</string>
+    <string name="sensor_title">Sensor List</string>
+    <string name="storage_title">Android Read and Write Text from/to a File</string>
+    <string name="storage_hint">Write here the text to be saved</string>
+    <string name="button_write">Write Text into File</string>
+    <string name="button_read">Read Text from File</string>
+    <string name="internal_storage">File Saver/Reader</string>
+    <string name="button_edit">Edit Text into File</string>
+    <string name="name_file">Enter a file name (do not include .txt)</string>
+    <string name="image_button">Image Downloader</string>
+    <string name="image_title">Image DownLoader</string>
+    <string name="edit_image">Enter a url for your image</string>
+    <string name="button_search">Download</string>
+    <string-array name="textSize">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+</resources>

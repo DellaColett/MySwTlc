@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MySwTlc</string>
+    <string name="edit_message">Inserisci un messaggio</string>
+    <string name="button_send">Invio</string>
+    <string name="radiored">Rosso</string>
+    <string name="radiogreen">Verde</string>
+    <string name="radioblue">Blu</string>
+    <string name="welcome_message">Le mie app</string>
+    <string name="button_test">Test</string>
+    <string name="button_converter">Convertitore Temperature</string>
+    <string name="button_utils">App Ufficio</string>
+    <string name="enter_your_name">Inserisci il tuo nome</string>
+    <string name="enter_temp">Inserisci la temp</string>
+    <string name="cel_to_far">Celsius -> Fahrenheit</string>
+    <string name="far_to_cel">Fahrenheit -> Celsius</string>
+    <string name="browse_button">Naviga</string>
+    <string name="phone_button">Chiama</string>
+    <string name="email_button">E-mail</string>
+    <string name="url_hint">Inserisci un Url</string>
+    <string name="phone_hint">Inserisci un numero di telefono</string>
+    <string name="email_to_hint">Inserisci un indirizzo email</string>
+    <string name="email_subject_hint">Inserisci Oggetto</string>
+    <string name="email_text_hint">Inserisci il messaggio</string>
+    <string name="map_button">Posizione</string>
+    <string name="location_hint">Inserisci una località</string>
+    <string name="cl_activity_title">Lista Contatti Semplice</string>
+    <string name="cl_activity_subtitle">con SharedPreferences</string>
+    <string name="cl_name">Nome</string>
+    <string name="cl_mail">E-mail</string>
+    <string name="cl_phone">Telefono</string>
+    <string name="button_save">Salva</string>
+    <string name="cl_button">Lista Contatti</string>
+    <string name="button_pass">Passa</string>
+    <string name="cl_list">Lista Contatti</string>
+    <string name="button_sensor">Sensori</string>
+    <string name="sensor_title">Lista Sensori</string>
+    <string name="storage_title">Android Lettura e/o scrittura di un file</string>
+    <string name="storage_hint">Scrivi qui il testo</string>
+    <string name="button_write">Inserisci testo nel file</string>
+    <string name="button_read">Leggi testo dal File</string>
+    <string name="internal_storage">Lettore/Scrittore File</string>
+    <string name="button_edit">Edita testo nel File</string>
+    <string name="name_file">Inserisci nome file (non includere .txt)</string>
+    <string name="image_button">Scarica Immagine</string>
+    <string name="image_title">Scaricatore di immagini</string>
+    <string name="edit_image">Inserire l url dell immagine</string>
+    <string name="button_search">Download</string>
+    <string-array name="textSize">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+</resources>

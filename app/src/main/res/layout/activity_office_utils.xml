@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/url_hint"
+        android:inputType="textUri"/>
+    <Button android:id="@+id/button_browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/browse_button"
+        android:onClick="browse"/>
+    <EditText android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"/>
+    <Button android:id="@+id/button_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="phone"
+        android:text="@string/phone_button"/>
+    <EditText android:id="@+id/email_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_to_hint"
+        android:inputType="textEmailAddress"/>
+    <EditText android:id="@+id/email_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_subject_hint"
+        android:inputType="textEmailSubject"/>
+    <EditText android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_text_hint"
+        android:inputType="text"/>
+    <Button android:id="@+id/button_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mail"
+        android:text="@string/email_button"/>
+    <EditText android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_hint"
+        android:inputType="text"/>
+    <Button android:id="@+id/button_location"
+        android:text="@string/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="position"/>
+
+
+</LinearLayout>
